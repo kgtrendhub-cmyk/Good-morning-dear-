@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Special Morning</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(45deg, #ff9933, #ff4d4d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+.container {
+  animation: fadeIn 3s ease-in-out;
+}
+
+h1 {
+  font-size: 40px;
+  animation: glow 2s infinite alternate;
+}
+
+p {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.5); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes glow {
+  from { text-shadow: 0 0 10px white; }
+  to { text-shadow: 0 0 25px yellow; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>🌸 Radhe Radhe 🌸</h1>
+  <p>✨ Jai Dada Parshuram ✨</p>
+  <p>Good Morning Dear 💗<br>
+  Aaj ka din aapke liye khushiyon se bhara ho ☀️</p>
+</div>
+
+<audio autoplay loop>
+  <source src="your-song.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
